@@ -26,7 +26,7 @@
     <a href="{{ url('/') }}"
        class="font-semibold text-gray-600 hover:text-gray-900  focus:outline focus:outline-2 focus:rounded-sm focus:outline-red-500 mr-8">Home</a>
     <a href="{{ url('/admin') }}"
-       class="font-semibold text-gray-600 hover:text-gray-900  focus:outline focus:outline-2 focus:rounded-sm focus:outline-red-500 mr-8">Crawler</a>
+       class="font-semibold text-gray-600 hover:text-gray-900  focus:outline focus:outline-2 focus:rounded-sm focus:outline-red-500 mr-8">Admin</a>
 </div>
 <div class="flex justify-center">
     <img src="/wpmedia_logo.png" alt="not found">

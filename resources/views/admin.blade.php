@@ -12,9 +12,9 @@
                     </label>
                 </div>
                 <div class="md:w-1/3">
-                    <input value="https://books.toscrape.com/'"
-                           class="bg-gray-200 appearance-none border-2 border-gray-200 rounded w-full py-2 px-4 text-gray-700 focus:bg-white focus:border-cyan-950"
-                           id="inline-full-name" type="text" placeholder="https://www.google.com" name="homepage_url">
+                    <input
+                        class="bg-gray-200 appearance-none border-2 border-gray-200 rounded w-full py-2 px-4 text-gray-700 focus:bg-white focus:border-cyan-950"
+                        id="inline-full-name" type="text" placeholder="https://www.google.com" name="homepage_url">
                 </div>
                 <div class="md:w-auto">
                     <button class="btn-primary" type="submit">
