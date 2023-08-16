@@ -47,6 +47,10 @@ I decided not to use a crawler library for this project so i wrote my own crawli
 **How did i manage the storing of the results:**
 - I created a CrawlerStorage model (in app/Models/CrawlerStorage.php) to handle storing of the results in local json file found in "storage/app/results.json". 
 
+**How i manually calculated the sitemap priority field :**
+Sitemap URL priority as I understand it, Is a range from 0.0 to 1.0 given to url according to its importance. 
+Since there is no general standard on how to calculate it, And it wasn’t mentioned in the project requirements,  I created a little formula on my own, to calculate the priority according to how deeply nested the link page is. 
+Giving the most deeply nested links a 0.0 and a superficial link such as "https;//whatever.com/index.html" a 1.0
 
 ## Project directory structure
 If the evaluator isn't familiar with Laravel, i will guide you of where you should look for the code i have written
